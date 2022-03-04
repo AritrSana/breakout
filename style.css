@@ -1,0 +1,45 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: rgb(48, 48, 48);
+  font-family: sans-serif;
+  margin: 2em;
+}
+
+.grid {
+  position: absolute;
+  width: 560px;
+  height: 300px;
+  border: solid 1px white;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+
+.user {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blueviolet;
+}
+
+.block {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: blue;
+}
+
+.ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: red;
+}
